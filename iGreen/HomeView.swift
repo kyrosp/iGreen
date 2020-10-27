@@ -29,7 +29,7 @@ struct HomeView: View {
             }
 
         }.sheet(isPresented: $cambioP) {
-                ProfiloView()
+            ProfileView()
             }
         
     }
